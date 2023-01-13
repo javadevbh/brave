@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brave browser</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4329241a3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--- header --->
+    <header class="header">
+      <!--- navigation --->
+      <nav id="navbar-header" class="navbar">
+        <div class="brave-logo">
+          <img src="images/brave-logo.svg" />
+        </div>
+        <div class="nav-menu">
+          <ul class="nav-menu_list">
+            <i class="close-nav fas fa-close"></i>
+            <div class="dropdown">
+              <li class="nav-menu_item">
+                <a href="#">BROWSER</a
+                ><i class="fas fa-angle-down item-icon"></i>
+              </li>
+              <ul class="dropdown-content">
+                <a href="#"><li class="dropdown-menu-item">TALK</li></a>
+                <a href="#"
+                  ><li class="dropdown-menu-item">FIREWALL + VPN</li></a
+                >
+                <a href="#"> <li class="dropdown-menu-item">PLAYLIST</li></a>
+                <a href="#"> <li class="dropdown-menu-item">NEWS</li></a>
+                <a href="#">
+                  <li class="dropdown-menu-item">BRAVE REWARDS</li></a
+                >
+                <a href="#"> <li class="dropdown-menu-item">WALLET</li></a>
+                <a href="#">
+                  <li class="dropdown-menu-item">ALL FEATURES</li></a
+                >
+                <a href="#"> <li class="dropdown-menu-item">DOWNLOAD</li></a>
+              </ul>
+            </div>
+             <div class="dropdown">
+              <li class="nav-menu_item">
+                <a href="#">SEARCH</a
+                ><i class="fas fa-angle-down item-icon"></i>
+              </li>
+              <ul class="dropdown-content">
+                <a href="#"><li class="dropdown-menu-item">OVERVIEW</li></a>
+                <a href="#"
+                  ><li class="dropdown-menu-item">SEARCH THE WEB</li></a
+                >
+              </ul>
+            </div>
+            <div class="dropdown">
+              <li class="nav-menu_item">
+                <a href="#">PRIVACY</a
+                ><i class="fas fa-angle-down item-icon"></i>
+              </li>
+              <ul class="dropdown-content">
+                <a href="#"><li class="dropdown-menu-item">OVERVIEW</li></a>
+                <a href="#"><li class="dropdown-menu-item">LEARN</li></a>
+                <a href="#"> <li class="dropdown-menu-item">COMPARE</li></a>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <li class="nav-menu_item">
+                <a href="#">RESOURCES</a
+                ><i class="fas fa-angle-down item-icon"></i>
+              </li>
+              <ul class="dropdown-content">
+                <a href="#"><li class="dropdown-menu-item">HELP CENTER</li></a>
+                <a href="#"><li class="dropdown-menu-item">COMMUNITY</li></a>
+                <a href="#"> <li class="dropdown-menu-item">BLOG</li></a>
+                <a href="#">
+                  <li class="dropdown-menu-item">RELEASE NOTES</li></a
+                >
+              </ul>
+            </div>
+            <div class="dropdown">
+              <li class="nav-menu_item">
+                <a href="#">BUSINESS</a
+                ><i class="fas fa-angle-down item-icon"></i>
+              </li>
+              <ul class="dropdown-content">
+                <a href="#"
+                  ><li class="dropdown-menu-item">FOR ADVERTISERS</li></a
+                >
+                <a href="#"><li class="dropdown-menu-item">PODCAST</li></a>
+                <a href="#">
+                  <li class="dropdown-menu-item">CASE STUDIES</li></a
+                >
+                <a href="#">
+                  <li class="dropdown-menu-item">ADS MEDIA KIT</li></a
+                >
+                <a href="#">
+                  <li class="dropdown-menu-item">ADVERTISERS RESOURCES</li></a
+                >
+                <a href="#">
+                  <li class="dropdown-menu-item">FOR CREATORS</li></a
+                >
+                <a href="#">
+                  <li class="dropdown-menu-item">CREATORS MEDIA KIT</li></a
+                >
+              </ul>
+            </div> 
+          </ul>
+          <div class="nav-btn">
+            <div class="nav-btn__left">DOWNLOAD BRAVE</div>
+            <div class="nav-btn__right">TRY BRAVE SEARCH</div>
+          </div>
+          <div class="hamburger-menu"></div>
+        </div>
+      </nav>
+      <!--- navigation --->
+      <div class="header-content">
+        <h1 class="header-title">The best privacy online</h1>
+        <p class="header-desc">
+          3x faster than Chrome. Better protection from Google and Big Tech.
+        </p>
+        <a href="#" class="header-link__btn"
+          ><i class="fas fa-download"></i>Download Brave</a
+        >
+        <div class="header-image__container">
+          <img class="header-image" src="images/header-image.png" alt="" />
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,64L120,101.3C240,139,480,213,720,224C960,235,1200,181,1320,154.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
+    </header>
+
+    <!--- main --->
+    <main class="main container">
+      <section class="section-features">
+        <div class="section-description" data-aos="fade-right">
+          <h3 class="section-title">Stop being followed online</h3>
+          <p class="section-desc">
+            Brave blocks all creepy ads from every website by default. And that
+            thing where ads follow you across the web? Brave blocks that, too.
+          </p>
+        </div>
+        <div class="section-pic" data-aos="fade-up">
+          <img src="https://brave.com/static-assets/images/optimized/speed-past-chrome-cover.png"></img>
+        </div>
+        <div class="section-pic" data-aos="fade-up">
+          <img src="https://brave.com/static-assets/images/optimized/home-illustration-01.png"></img>
+        </div>
+        <div class="section-description" data-aos="fade-right">
+          <h3 class="section-title">Online privacy made simple</h3>
+          <p class="section-desc">
+            All the good of ad-blocking, incognito windows, private search, even VPN. All in a single download.
+          </p>
+        </div>
+        <div class="section-description" data-aos="fade-right">
+          <h3 class="section-title">Switch in 60 seconds</h3>
+          <p class="section-desc">
+            Quickly import bookmarks, extensions, even saved passwords. It’s the best of your old browser, only safer. And it only takes a minute to switch.
+          </p>
+        </div>
+        <div class="section-pic" data-aos="fade-up">
+          <img src="https://brave.com/static-assets/images/optimized/home-illustration-02.webp"></img>
+        </div>
+        <div class="section-pic" data-aos="fade-up">
+          <img src="https://brave.com/static-assets/images/optimized/home-illustration-03.png"></img>
+        </div>
+        <div class="section-description" data-aos="fade-right">
+          <h3 class="section-title">The new super app</h3>
+          <p class="section-desc">
+            Brave brings <a href='#'>truly independent search</a>,<a href='#'>free video calls</a>,<a href='#'>offline playlists</a>, even a <a href='#'>customizable news feed</a>. All fully private. All right to your browser super app.
+          </p>
+        </div>
+        <div class="section-description" data-aos="fade-right">
+          <h3 class="section-title">Privacy you can see</h3>
+          <p class="section-desc">
+            No creepy ads & trackers means less stuff (visible or hidden) on the sites you visit. And that means faster page load, better battery life, even mobile data savings.
+          </p>
+        </div>
+        <div class="section-pic" data-aos="fade-up">
+          <img src="https://brave.com/static-assets/images/optimized/home-illustration-04.webp"></img>
+        </div>
+      </section>
+      <section class='section-chart'>
+        <h2 class="chart-title">Online privacy by default: Brave vs. other browsers</h2>
+        <ul class="chart-list">
+          <li class="chart-list_item">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Strong protection</p>
+          </li>
+          <li class="chart-list_item">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <p>No protection</p>
+          </li>
+          <li class="chart-list_item">
+            <i class="fa-solid fa-circle-minus"></i>
+            <p>Limited protection (or off by default)</p>
+          </li>
+        </ul>
+        <div class="chart">
+          <header class='chart-header'>
+            <div class="chart-heading"><p>Built-in features</p></div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <img src="images/logo/brave-logo-sans-text.svg" alt="">
+                <p>Brave</p>
+              </div>
+              <div class="chart-cell">
+                <img src="images/logo/firefox-logo.svg" alt="">
+                <p>Firefox</p>
+              </div>
+              <div class="chart-cell">
+                <img src="images/logo/safari-logo.svg" alt="">
+                <p>Safari</p>
+              </div>
+              <div class="chart-cell">
+                <img src="images/logo/chrome-logo.svg" alt="">
+                <p>Chrome</p>
+              </div>
+            </div>
+          </header>
+          <div class="chart-row">
+            <div class="chart-heading">Invasive ads blocked</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-heading">Cross-site trackers blocked</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-heading">Cookies blocked</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-heading">Fingerprinting blocked (cookie-less trackers)</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-heading">Malware & phishing protection*</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-heading">Protections against bounce tracking</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-minus"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+            </div>
+          </div>
+          <div class="chart-row">
+            <div class="chart-heading">Anonymized network routing (Tor mode)</div>
+            <div class="chart_cell-group">
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-check" data-aos="zoom-out"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+              <div class="chart-cell">
+                <i class="fa-solid fa-circle-xmark"></i>    
+              </div>
+            </div>
+          </div>
+        </div>
+        <p style='font-size:14px ; text-align: center;'><i>* Google safe browsing + malware & phishing protection from crowd-sourced lists. Table describes default browser configurations.</i></p>
+      </section>
+      <section class='advance-features'>
+        <h1 class='features-title'>Advanced features</h1>
+        <p class='features-desc'>Only here for the privacy? We got you. Just <a href="#">download</a> and enjoy…<br>
+          Want a more bespoke experience? Brave’s got great customizations, too:</p>
+          <ul class='features-list'>
+            <li class="features-item" data-aos="fade-right">
+              <img src="images/features/security-illustration.webp" alt="">
+              <h2>Advanced security</h2>
+              <p>Built-in IPFS integration, onion routing with Tor, custom filter lists, and <a href='#'>more security features</a>.</p>
+            </li>
+            <li class="features-item" data-aos="fade-up">
+              <img src="images/features/rewards-illustration.webp" alt="">
+              <h2>Brave Rewards</h2>
+              <p><a href='#'>Earn crypto tokens for your attention</a> by opting in to privacy-preserving, first-party ads.</p>
+            </li>
+            <li class="features-item" data-aos="fade-down">
+              <img src="images/features/wallet-illustration.webp" alt="">
+              <h2>Crypto wallet</h2>
+              <p><a href='#'>A secure, browser-native wallet</a> to buy, store, send, and swap your crypto assets.</p>
+            </li>
+          </ul>
+      </section>
+    </main>
+    <section class='section-accordion container-fluid'>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,256L120,229.3C240,203,480,149,720,138.7C960,128,1200,160,1320,176L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+      </svg>
+      <div class="section-accordion_content container">
+        <h1 class="accordion-title">Join the more than 50 million people (and counting) who trust Brave for a faster, safer Web</h1>
+        <p class='accordion-desc'>Import bookmarks and extensions from your old browser in one click.</p>
+        <a href="#" class="header-link__btn"
+            ><i class="fas fa-download"></i>Download Brave</a
+          >
+          <div class="accordion-container">
+            <button class="accordion-btn">Is the Brave Browser safe?</button>
+            <div class="accordion-panel">
+              <p>
+                Brave is one of the safest browsers on the market today. It blocks privacy-invasive ads & trackers. It blocks third-party data storage. It protects from browser fingerprinting. It upgrades every webpage possible to secure https connections. And it does all this by default.
+                <br><br>
+                It’s also built off the open-source Chromium Web core, which powers browsers used by billions of people worldwide. This source code is arguably vetted by more security researchers than any other browser. In short, not only is Brave safe to use, it’s much safer than almost any other browser. Learn more.
+              </p>
+            </div>
+            <button class="accordion-btn">How do I download & install Brave?</button>
+            <div class="accordion-panel">
+              <p>
+                Brave is available on nearly all desktop computers (Windows, macOS, Linux) and nearly every mobile device (Android and iOS). To get started, simply download the Brave browser for desktop, for Android, or for iOS.
+              </p>
+            </div>
+            <button class="accordion-btn">Does Brave have a VPN?</button>
+            <div class="accordion-panel">
+              <p>
+                Yes! Brave Firewall + VPN protects everything you do online, on your entire device, even outside the Brave Browser. It’s currently available for Android and iOS mobile devices, and will be available on desktop in the very near future.
+              </p>
+            </div>
+            <button class="accordion-btn">What languages is Brave available in?</button>
+            <div class="accordion-panel">
+              <p>
+                The Brave Browser is available in nearly 160 languages in all, including four different dialects of Chinese. Brave Search is currently available in English, French, German, Japanese, and Spanish, with support for many more languages coming soon.
+              </p>
+            </div>
+            <button class="accordion-btn">Who owns Brave?</button>
+            <div class="accordion-panel">
+              <p>
+                The Brave Browser, Brave Search, and all their various features are made by Brave Software Inc, an independent, privately-held company. Brave is not beholden to any other tech company, and works every single day to fight Big Tech’s terrible privacy abuses. Brave exists to help real people, not some faceless tech company.
+              </p>
+            </div>
+            <button class="accordion-btn">Is Brave open source?</button>
+            <div class="accordion-panel">
+              <p>
+                Yes. The Brave Browser is built on the open-source Chromium Web core and our own client code is released under the Mozilla Public License 2.0.
+              </p>
+            </div>
+            <button class="accordion-btn">How does Brave compare to Chrome?</button>
+            <div class="accordion-panel">
+              <p>
+                Simply put, the Brave Browser is 3x faster than Google Chrome. By blocking all privacy-invading ads & trackers by default, there’s less stuff to load on every single webpage you visit. That means pages load much faster, saving you time, money, and battery life. It also means you’re much safer online. Learn more.
+              </p>
+            </div>
+            <button class="accordion-btn">Is Brave free?</button>
+            <div class="accordion-panel">
+              <p>
+                Yes, Brave is completely free to use. Simply download the Brave browser for desktop, for Android, or for iOS to get started. You can also use Brave Search free from any browser at search.brave.com, or set it as your default search engine.
+                <br><br>
+                Brave also has some great, subscription-based features, including Brave Talk Premium and Brave Firewall + VPN.
+              </p>
+            </div>
+            <button class="accordion-btn">What is BAT, and how do I earn it?</button>
+            <div class="accordion-panel">
+              <p>
+                BAT is short for Basic Attention Token. BAT is a crypto asset, and a key (but totally optional) part of the Brave Rewards ecosystem. Here’s how it works:
+                <br><br>
+                Brave Rewards gives you the option to view first-party, privacy-protecting ads while you browse (these ads are from the Brave Private Ads network). If you choose to view them, you earn BAT, via the Brave Rewards program.
+                <br><br>
+                You can keep BAT like any other crypto asset, or use it to tip the content publishers you love. Brave even gives you a secure way to store BAT (and any other crypto asset), with Brave Wallet. And, again, Brave Rewards is a totally optional program.
+                <br><br>
+                Other tech companies steal your data to sell ads—to them, you are the product. Brave is different. We think your attention is valuable (and private!), and that you should get a fair share of the revenue for any advertising you choose to view. That fair share is rewarded in BAT.
+              </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--- footer --->
+
+    <footer class='footer container-fluid'>
+      <div class="footer-content container">
+        <div class="footer__column">
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Resources</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>F.A.Q</a></li>
+              <li><a href='#'>Help center</a></li>
+              <li><a href='#'>Community</a></li>
+              <li><a href='#'>Status</a></li>
+              <li><a href='#'>Transparency report</a></li>
+              <li><a href='#'>Learn</a></li>
+              <li><a href='#'>Insights</a></li>
+            </ul>
+          </div>
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Privacy policy</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>Brave Browser</a></li>
+              <li><a href='#'>Website & email</a></li>
+              <li><a href='#'>Publishers & creators</a></li>
+              <li><a href='#'>Advertisers</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Browser</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>Brave Release</a></li>
+              <li><a href='#'>Brave Beta</a></li>
+              <li><a href='#'>Brave Nightly</a></li>
+            </ul>
+          </div>
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Company</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>About</a></li>
+              <li><a href='#'>Research</a></li>
+              <li><a href='#'>Careers</a></li>
+              <li><a href='#'>Brand assets</a></li>
+              <li><a href='#'>Media kit</a></li>
+              <li><a href='#'>In the press</a></li>
+              <li><a href='#'>Github</a></li>
+              <li><a href='#'>Blog</a></li>
+              <li><a href='#'>Tor Onoin address</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Social media</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>Reddit</a></li>
+              <li><a href='#'>Twitter</a></li>
+              <li><a href='#'>Facebook</a></li>
+              <li><a href='#'>Youtube</a></li>
+            </ul>
+          </div>
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Products</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>Search</a></li>
+              <li><a href='#'>Rewards</a></li>
+              <li><a href='#'>Wallet</a></li>
+              <li><a href='#'>Firewall + VPN</a></li>
+              <li><a href='#'>Talks</a></li>
+              <li><a href='#'>News</a></li>
+              <li><a href='#'>Playlist</a></li>
+              <li><a href='#'>All browser features</a></li>
+              <li><a href='#'>Basic Attention Token</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Contact</h4>
+            <ul class="footer__grouping-list">
+              <h5>Support</h5>
+              <li><a href='#'>community.brave.com</a></li>
+              <h5>Advertising</h5>
+              <li><a href='#'>adsales@trybrave.com</a></li>
+              <h5>Business</h5>
+              <li><a href='#'>bizdev@brave.com</a></li>
+              <h5>Press</h5>
+              <li><a href='#'>press@brave.com</a></li>
+            </ul>
+          </div>
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Developer docs</h4>
+            <ul class="footer__grouping-list">
+              <li><a href='#'>Wallet docs</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer__grouping">
+            <h4 class="footer__grouping-title">Offices</h4>
+            <ul class="footer__grouping-list">
+              <h5>Brave San Francisco</h5>
+              <li>580 Howard St. Unit 402,<br>
+                San Francisco, CA 94105</li>
+            </ul>
+          </div>
+          <div class="footer__grouping">
+            <label for="select-lan" style='margin-bottom:5px ;'>Choose a language</label>
+              <select id="select-lan">
+                    <option value="EN">English</option>
+                    <option value="AF">Afrikaans</option>
+                    <option value="SQ">Albanian</option>
+                    <option value="AR">Arabic</option>
+                    <option value="HY">Armenian</option>
+                    <option value="EU">Basque</option>
+                    <option value="BN">Bengali</option>
+                    <option value="BG">Bulgarian</option>
+                    <option value="CA">Catalan</option>
+                    <option value="KM">Cambodian</option>
+                    <option value="ZH">Chinese (Mandarin)</option>
+                    <option value="HR">Croatian</option>
+                    <option value="CS">Czech</option>
+                    <option value="DA">Danish</option>
+                    <option value="NL">Dutch</option>
+                    <option value="ET">Estonian</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finnish</option>
+                    <option value="FR">French</option>
+                    <option value="KA">Georgian</option>
+                    <option value="DE">German</option>
+                    <option value="EL">Greek</option>
+                    <option value="GU">Gujarati</option>
+                    <option value="HE">Hebrew</option>
+                    <option value="HI">Hindi</option>
+                    <option value="HU">Hungarian</option>
+                    <option value="IS">Icelandic</option>
+                    <option value="ID">Indonesian</option>
+                    <option value="GA">Irish</option>
+                    <option value="IT">Italian</option>
+                    <option value="JA">Japanese</option>
+                    <option value="JW">Javanese</option>
+                    <option value="KO">Korean</option>
+                    <option value="LA">Latin</option>
+                    <option value="LV">Latvian</option>
+                    <option value="LT">Lithuanian</option>
+                    <option value="MK">Macedonian</option>
+                    <option value="MS">Malay</option>
+                    <option value="ML">Malayalam</option>
+                    <option value="MT">Maltese</option>
+                    <option value="MI">Maori</option>
+                    <option value="MR">Marathi</option>
+                    <option value="MN">Mongolian</option>
+                    <option value="NE">Nepali</option>
+                    <option value="NO">Norwegian</option>
+                    <option value="FA">Persian</option>
+                    <option value="PL">Polish</option>
+                    <option value="PT">Portuguese</option>
+                    <option value="PA">Punjabi</option>
+                    <option value="QU">Quechua</option>
+                    <option value="RO">Romanian</option>
+                    <option value="RU">Russian</option>
+                    <option value="SM">Samoan</option>
+                    <option value="SR">Serbian</option>
+                    <option value="SK">Slovak</option>
+                    <option value="SL">Slovenian</option>
+                    <option value="ES">Spanish</option>
+                    <option value="SW">Swahili</option>
+                    <option value="SV">Swedish </option>
+                    <option value="TA">Tamil</option>
+                    <option value="TT">Tatar</option>
+                    <option value="TE">Telugu</option>
+                    <option value="TH">Thai</option>
+                    <option value="BO">Tibetan</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TR">Turkish</option>
+                    <option value="UK">Ukrainian</option>
+                    <option value="UR">Urdu</option>
+                    <option value="UZ">Uzbek</option>
+                    <option value="VI">Vietnamese</option>
+                    <option value="CY">Welsh</option>
+                    <option value="XH">Xhosa</option>
+              </select>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class='footer-copyright container'>
+        <div class="brave-logo">
+          <img src="images/brave-logo.svg" />
+        </div>
+        <div class="copyright-desc">
+          <a href="#">Terms of use</a> | <a href="#">Report a security issue</a><br>
+          <p>© 2015 - 2022 Brave Software, Inc. | All rights reserved</s>
+        </div>
+      </section>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
