@@ -12,10 +12,10 @@
 ## web development technologies
 * HTML
 * CSS (css pure + flex box + css grid )
-* Java script pure (AOS library)
+* Vanilla Java script (AOS library)
 ---
 ## contact me
 * *[Email](mailto:javadev14bh@gmail.com)*
-* *[Telegram](https://t.me/LjvdL/)*
+* *[Telegram](https://t.me/Jav4d/)*
 * *[Instagram](https://instagram.com/jvd_bh/)*
 * *[LinkedIn](https://www.linkedin.com/in/javad-bahrami-79b349259/)*
