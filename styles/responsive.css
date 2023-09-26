@@ -211,7 +211,7 @@
     font-size: 17px;
   }
   .header-image {
-    content: url("/images/header-image2.webp");
+    content: url("../images/header-image2.webp");
     width: 80%;
     margin-top: 70px;
   }
